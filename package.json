@@ -1,0 +1,28 @@
+{
+  "name": "ganglion-amyx",
+  "description": "Ganglion collector.",
+  "homepage": "https://github.com/krambuhl/ganglion-amyx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever index.js",
+    "dstart": "PORT=5001 supervisor index.js",
+    "test": "tape tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:krambuhl/ganglion-amyx.git"
+  },
+  "devDependencies": {
+    "supervisor": "^0.6.0",
+    "tape": "^3.0.3"
+  },
+  "dependencies": {
+    "express": "^4.11.1",
+    "forever": "^0.13.0",
+    "message-bank": "^1.0.5",
+    "mongodb": "~2.0",
+    "passport": "^0.2.1",
+    "passport-github": "^0.1.5"
+  }
+}
