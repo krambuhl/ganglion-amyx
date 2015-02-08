@@ -20,7 +20,7 @@
   "dependencies": {
     "express": "^4.11.1",
     "forever": "^0.13.0",
-    "message-bank": "^1.0.5",
+    "message-bank": "~1.0",
     "mongodb": "~2.0",
     "passport": "^0.2.1",
     "passport-github": "^0.1.5",
